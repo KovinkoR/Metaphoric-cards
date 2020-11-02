@@ -1,0 +1,103 @@
+body {
+}
+#gamecol{
+  margin: 0;
+
+}
+#slideritem{
+  padding: 0;
+}
+#playground{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#demo{
+  width: 80%;
+}
+.hide{
+opacity: 0.1;
+}
+.carousel-inner{
+  height: 100%;
+}
+.active{
+  height: 100%;
+}
+
+.hovered{
+  background-color: #d1d8e2;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: row;
+}
+.card-holder{
+  min-width: 17%;
+  max-width: 17%;
+  min-height: 17em;
+  max-height: 100%;
+}
+.col-md-3{
+  display: inline-block;
+  margin-left:-4px;
+}
+.col-md-3 img{
+  width:100%;
+  height:100%;
+}
+/* .img-holder{
+  width: 100%;
+  585a5c
+  height:65%;
+} */
+
+
+
+body .no-padding{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: flex;
+  min-width: 15%;
+  min-height: 14em;
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 22%;
+  }
+}
+
+.fullScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.centerImage {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vkPngLogin {
+  width: 50px;
+}
+.camera{
+width: 5em;
+}
+.camera img{
+  width: 100%;
+}
+#trashIcon{
+width: 90%;
+height: 90%;
+}

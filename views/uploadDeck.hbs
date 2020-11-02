@@ -1,0 +1,12 @@
+<script defer src="/js/loadDeck.js"></script>
+
+<h1>Здесь ты можешь загружать свои карты</h1>
+<form id="form" action="/deck" method="post" enctype="multipart/form-data">
+  <h3>обложка колоды карт</h3>
+  <input type="file" name="avatar" />
+  <br>
+  <h3>карты</h3>
+  <input type="file" name="cards" multiple="multiple" />
+  <input type="text" name="deckTitle" placeholder="название колоды">
+  <button type="submit">Загрузить картинку</button>
+</form>
